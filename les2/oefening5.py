@@ -5,5 +5,5 @@ uitkomst = getal1 * getal2
 watdenkje = int(input(f"Hoeveel is {getal1} x {getal2}?: "))
 if watdenkje == uitkomst:
     print("Juist, goed zo!")
-if watdenkje != uitkomst:
+else:
     print(f"Fout! Het juiste antwoord is {uitkomst}.")
